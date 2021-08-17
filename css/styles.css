@@ -11457,6 +11457,7 @@ textarea.form-control-lg {
 /* ************************************************************************* */
 html {
   scroll-padding-top: calc(4.5rem - 1px);
+  font-family: "Rome", Arial, Times, sans-serif;
 }
 
 body {
@@ -11500,15 +11501,23 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: pink;
+    text-shadow: -.5px .5px 0 #000,
+                          .5px .5px 0 #000,
+                         .5px -.5px 0 #000,
+                        -.5px -.5px 0 #000;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: pink;
+    text-shadow: -.5px .5px 0 #000,
+                          .5px .5px 0 #000,
+                         .5px -.5px 0 #000,
+                        -.5px -.5px 0 #000;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: pink;
   }
   #mainNav .nav-link:active {
     color: #fff;
@@ -11518,11 +11527,13 @@ body {
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
+    text-shadow: none;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #000;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
+    text-shadow: none;
   }
   #mainNav.navbar-shrink .nav-link:hover {
     color: #64a19d;
@@ -11584,7 +11595,6 @@ body {
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: "Varela Round", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -11592,7 +11602,7 @@ body {
 }
 
 @font-face {
-   font-family: Rome;
+   font-family: "Rome";
    src: url("../assets/font/Romeliosans.ttf");
 }
 
@@ -11609,18 +11619,25 @@ body {
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
-  font-family: Rome, Arial, Times, sans-serif;
+  font-family: "Rome", Arial, Times, sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   color: pink;
-  /* color | offset-x | offset-y | blur-radius */
-  text-shadow: black 10px 10px 20px;
+  text-shadow: -.5px .5px 0 #000,
+                        .5px .5px 0 #000,
+                       .5px -.5px 0 #000,
+                      -.5px -.5px 0 #000;
 }
 .masthead h2, .masthead .h2 {
+  font-family: "Rome", Arial, Times, sans-serif;
   max-width: 20rem;
-  font-size: 1rem;
-  text-shadow: black 10px 10px 20px;
+  font-size: 2rem;
+  color: pink;
+  text-shadow: -.5px .5px 0 #000,
+                        .5px .5px 0 #000,
+                       .5px -.5px 0 #000,
+                      -.5px -.5px 0 #000;
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
@@ -11643,7 +11660,7 @@ body {
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 3.25rem;
   }
 }
 
@@ -11702,7 +11719,7 @@ body {
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Rome, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
